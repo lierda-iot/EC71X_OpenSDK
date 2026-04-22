@@ -10,3 +10,4 @@ this section provides project hardware design reference, schematic Description, 
    :titlesonly:
 
    hardware-guide
+   SpriteCoreBox/SpriteCoreBox Application Guide_v0.1
