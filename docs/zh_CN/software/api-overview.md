@@ -2,4 +2,4 @@
 
 {link_to_translation}`en:[English]`
 
-介绍利尔达OPENSDK的所有API。
+介绍利尔达OPENSDK的所有API
