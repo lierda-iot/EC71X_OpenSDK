@@ -11,7 +11,7 @@ This guide will help you quickly get started with the **SpriteCoreBox** and prov
 
 **SpriteCoreBox** is an embedded core module integrating voice recognition, audio playback, and intelligent interaction, specifically designed for smart toys, educational devices, and interactive terminals. This core module features a built-in main control chip, audio system, and power supply module, enabling functions such as voice wake-up, conversational interaction, and content playback.
 
-![](assets/灵芯盒%20应用指导_Rev0.1/file-20260417171958736.png)
+![](_images/灵芯盒%20应用指导_Rev0.1/file-20260417171958736.png)
 
 This guide includes the following sections:
 - [Getting Started](#getting-started): Briefly introduces the development board and hardware/software setup.
@@ -130,7 +130,7 @@ The main components and interfaces of the L-CT4IT00-YP00W-03A_V04 are described 
 </table>
 
 The key components and interfaces of the L-CT4IT00-YP00W-02A_V01 are as follows:
-![](assets/灵芯盒%20应用指导_Rev0.1/file-20260416142304176.png)
+![](_images/灵芯盒%20应用指导_Rev0.1/file-20260416142304176.png)
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <thead>
@@ -176,7 +176,7 @@ For driver installation, please refer to [Lierda Cat.1 Module USB Driver Install
 ### Functional Block Diagram
 
 The functional block diagram of the SpriteCoreBox is shown below.
-![](assets/灵芯盒%20应用指导_Rev0.1/file-20260416142304187.png)
+![](_images/灵芯盒%20应用指导_Rev0.1/file-20260416142304187.png)
 
 ### Power Supply Methods
 
@@ -187,27 +187,27 @@ The main board has a power switching circuit. The system can be powered in the f
 ### Charging Circuit
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417102436335.png" alt="Charging reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417102436335.png" alt="Charging reference circuit" width="75%">
   <figcaption>Charging reference circuit</figcaption>
 </figure>
-The CL4056D has a maximum charging voltage of 4.2V. NTC is recommended with R<sub>25</sub>=100KΩ for a charging range of 0~45°C, or R<sub>25</sub>=10KΩ for 0~50°C. As shown in the reference circuit, with the 103040A1 battery (R<sub>25</sub>=10KΩ, B<sub>25/50</sub>=3435), the designed charging temperature range is 0.46°C~50.22°C. See the [NTC calculation tool](assets/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx)(XLSX) for details.
+The CL4056D has a maximum charging voltage of 4.2V. NTC is recommended with R<sub>25</sub>=100KΩ for a charging range of 0~45°C, or R<sub>25</sub>=10KΩ for 0~50°C. As shown in the reference circuit, with the 103040A1 battery (R<sub>25</sub>=10KΩ, B<sub>25/50</sub>=3435), the designed charging temperature range is 0.46°C~50.22°C. See the [NTC calculation tool](_images/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx)(XLSX) for details.
 
 ### USB Interface
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260416145552696.png" alt="USB connector reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260416145552696.png" alt="USB connector reference circuit" width="75%">
   <figcaption>USB connector reference circuit</figcaption>
 </figure>
 
 ### SIM Card Interface
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417093604496.png" alt="SIM card socket reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417093604496.png" alt="SIM card socket reference circuit" width="75%">
   <figcaption>SIM card socket reference circuit</figcaption>
 </figure>
 In addition to the SIM card socket, the main board also reserves a solder pad for a SMD SIM card. The two overlap on the PCB; the socket is used by default. If a SMD SIM is needed, remove the socket before soldering.
 
 ### Key Expansion Interface
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417094134651.png" alt="Key expansion connector reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417094134651.png" alt="Key expansion connector reference circuit" width="75%">
   <figcaption>Key expansion connector reference circuit</figcaption>
 </figure>
 **Note the special uses of all key expansion IOs:**
@@ -217,21 +217,21 @@ In addition to the SIM card socket, the main board also reserves a solder pad fo
 
 ### Motor/Servo Interface
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417094406290.png" alt="Motor/servo connector reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417094406290.png" alt="Motor/servo connector reference circuit" width="75%">
   <figcaption>Motor/servo connector reference circuit</figcaption>
 </figure>
 The module provides 4 different PWM channels for motor and servo driving, supporting connection of one DC motor and two servos simultaneously.
 
 ### Microphone Interface
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417095314016.png" alt="Microphone connector reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417095314016.png" alt="Microphone connector reference circuit" width="75%">
   <figcaption>Microphone connector reference circuit</figcaption>
 </figure>
 The SpriteCoreBox's microphone connector is already fitted with a microphone. If you need to connect an external electret microphone, pay attention to the terminal wire sequence; reverse polarity will not drive the microphone.
 
 ### RGB Indicator LED
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417095125140.png" alt="RGB LED reference circuit" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417095125140.png" alt="RGB LED reference circuit" width="75%">
   <figcaption>RGB LED reference circuit</figcaption>
 </figure>
 The RGB LED follows the WS2812 timing.
@@ -248,6 +248,6 @@ The RGB LED follows the WS2812 timing.
 
 ## Related Resources
 
-- [SCH-PCB](assets/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-03A_V04_ref%20(2026-4-17%2016-00-31).zip) (ZIP)
-- [BOM](assets/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-04_BOM.xlsx) (XLSX)
-- [NTC Calculation Tool](assets/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx) (XLSX)
+- [SCH-PCB](_images/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-03A_V04_ref%20(2026-4-17%2016-00-31).zip) (ZIP)
+- [BOM](_images/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-04_BOM.xlsx) (XLSX)
+- [NTC Calculation Tool](_images/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx) (XLSX)

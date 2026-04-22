@@ -11,7 +11,7 @@
 
 **灵芯盒**是一款集语音识别、音频播放、智能交互于一体的嵌入式核心模块，专为智能玩具、教育设备及互动终端设计。该机芯内置主控芯片、音频系统及供电模块，可实现语音唤醒、对话交互、内容播放等功能。
 
-![](assets/灵芯盒%20应用指导_Rev0.1/file-20260417171958736.png)
+![](_images/灵芯盒%20应用指导_Rev0.1/file-20260417171958736.png)
 
 本指南包括如下内容：
 - [入门指南](灵芯盒%20应用指导_Rev0.1.md#入门指南)：简要介绍了开发板和硬件、软件设置指南。
@@ -130,7 +130,7 @@ L-CT4IT00-YP00W-03A_V04主要器件和接口介绍如下：
 </table>
 
 L-CT4IT00-YP00W-02A_V01关键物料和接口介绍如下：
-![](assets/灵芯盒%20应用指导_Rev0.1/file-20260416142304176.png)
+![](_images/灵芯盒%20应用指导_Rev0.1/file-20260416142304176.png)
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <thead>
@@ -175,7 +175,7 @@ L-CT4IT00-YP00W-02A_V01关键物料和接口介绍如下：
 ### 功能框图
 
 灵芯盒功能框图如下所示。
-![](assets/灵芯盒%20应用指导_Rev0.1/file-20260416142304187.png)
+![](_images/灵芯盒%20应用指导_Rev0.1/file-20260416142304187.png)
 
 ### 供电方式
 
@@ -188,22 +188,22 @@ L-CT4IT00-YP00W-02A_V01关键物料和接口介绍如下：
 ### 充电电路
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417102436335.png" alt="充电管理参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417102436335.png" alt="充电管理参考电路" width="75%">
   <figcaption>充电管理参考电路</figcaption>
 </figure>
-CL4056D最高充电电压4.2V，NTC建议选用R<sub>25</sub>=100KΩ的电池，可设计的充电范围为0~45℃，R<sub>25</sub>=10KΩ时可设计的充电范围为0~50℃。如参考电路所示，搭配103040A1电池（R<sub>25</sub>=10KΩ,B<sub>25/50</sub>=3435），设计的充电温度范围为0.46℃~50.22℃。具体计算方式见下表：[NTC计算工具](assets/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx)(XLSX)
+CL4056D最高充电电压4.2V，NTC建议选用R<sub>25</sub>=100KΩ的电池，可设计的充电范围为0~45℃，R<sub>25</sub>=10KΩ时可设计的充电范围为0~50℃。如参考电路所示，搭配103040A1电池（R<sub>25</sub>=10KΩ,B<sub>25/50</sub>=3435），设计的充电温度范围为0.46℃~50.22℃。具体计算方式见下表：[NTC计算工具](_images/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx)(XLSX)
 
 ### USB接口
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260416145552696.png" alt="USB连接器参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260416145552696.png" alt="USB连接器参考电路" width="75%">
   <figcaption>USB连接器参考电路</figcaption>
 </figure>
 
 ### SIM卡接口
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417093604496.png" alt="SIM卡座参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417093604496.png" alt="SIM卡座参考电路" width="75%">
   <figcaption>SIM卡座参考电路</figcaption>
 </figure>
 除SIM卡座外，主板上还预留贴片SIM卡封装，两者在PCB上位置重叠，默认使用卡座，若需贴片SIM可拆除卡座后焊接。
@@ -211,7 +211,7 @@ CL4056D最高充电电压4.2V，NTC建议选用R<sub>25</sub>=100KΩ的电池，
 ### 按键拓展接口
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417094134651.png" alt="按键拓展连接器参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417094134651.png" alt="按键拓展连接器参考电路" width="75%">
   <figcaption>按键拓展连接器参考电路</figcaption>
 </figure>
 **请注意，所有按键拓展的IO均存在特殊用法：**
@@ -222,7 +222,7 @@ CL4056D最高充电电压4.2V，NTC建议选用R<sub>25</sub>=100KΩ的电池，
 ### 电机/舵机接口
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417094406290.png" alt="电机/舵机连接器参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417094406290.png" alt="电机/舵机连接器参考电路" width="75%">
   <figcaption>电机/舵机连接器参考电路</figcaption>
 </figure>
 模组提供了4路不同的PWM作为电机和舵机驱动，支持同时外接1个直流电机和2个舵机。
@@ -230,7 +230,7 @@ CL4056D最高充电电压4.2V，NTC建议选用R<sub>25</sub>=100KΩ的电池，
 ### 麦克风接口
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417095314016.png" alt="麦克风连接器参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417095314016.png" alt="麦克风连接器参考电路" width="75%">
   <figcaption>麦克风连接器参考电路</figcaption>
 </figure>
 灵芯盒内麦克风连接器已插入麦克风，如需外接其他驻极体麦克风请注意端子线序，正负极接反时无法驱动。
@@ -238,7 +238,7 @@ CL4056D最高充电电压4.2V，NTC建议选用R<sub>25</sub>=100KΩ的电池，
 ### RGB指示灯
 
 <figure align="center">
-  <img src="assets/灵芯盒%20应用指导_Rev0.1/file-20260417095125140.png" alt="RGB LED参考电路" width="75%">
+  <img src="_images/灵芯盒%20应用指导_Rev0.1/file-20260417095125140.png" alt="RGB LED参考电路" width="75%">
   <figcaption>RGB LED参考电路</figcaption>
 </figure>
 RGB LED符合WS2812时序。
@@ -256,6 +256,6 @@ RGB LED符合WS2812时序。
 
 ## 相关资源
 
-- [SCH-PCB](assets/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-03A_V04_ref%20(2026-4-17%2016-00-31).zip)(ZIP)
-- [BOM](assets/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-04_BOM.xlsx)(XLSX)
-- [NTC计算工具](assets/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx)(XLSX)
+- [SCH-PCB](_images/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-03A_V04_ref%20(2026-4-17%2016-00-31).zip)(ZIP)
+- [BOM](_images/灵芯盒%20应用指导_Rev0.1/L-CT4IT00-YP00W-04_BOM.xlsx)(XLSX)
+- [NTC计算工具](_images/灵芯盒%20应用指导_Rev0.1/NTC计算工具_V1.2.xlsx)(XLSX)
