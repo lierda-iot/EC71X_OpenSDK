@@ -1,0 +1,6 @@
+docs/_build
+docs/dist
+docs/venv
+
+
+.DS_Store

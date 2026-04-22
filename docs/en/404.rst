@@ -1,0 +1,19 @@
+:orphan:
+
+Page Not Found
+==============
+
+:link_to_translation:`zh_CN:[中文]`
+
+.. note::
+
+   We're sorry, but the page you requested could not be found. This error may occur because the currently selected version does not support the feature you are looking for. If you would like to provide feedback about this documentation, please let us know the specific documentation page you were trying to access so we can better assist you.
+
+   Please use the left menu to browse the documentation content. You can also enter the content you want to find in the search box above the menu and press Enter to search.
+
+.. figure:: ../_static/404-page__cn.svg
+   :align: center
+   :alt: We're sorry, but the page you requested could not be found.
+   :figclass: align-center
+
+* :ref:`genindex`
