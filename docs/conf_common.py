@@ -117,7 +117,7 @@ html_extra_path = []  # Additional files to copy to output directory
 
 html_context = {
     "github_user": "lierda-iot",
-    "github_repo": "EC71X_OpenCPU_DOC",
+    "github_repo": "EC71X_OpenSDK",
     "github_version": github_version,
     "display_github": True,
     "conf_py_path": "/docs/",
