@@ -109,7 +109,7 @@ html_theme_options = {
     "collapse_navigation": True,
     "navigation_depth": 2,  # 关键修改：从 1 改为 2
     "titles_only": True,  # 侧边栏仅显示文档标题
-    "logo_only": False,  # 显示 logo 的同时保留项目标题
+    "logo_only": True,  # 只显示 logo，不显示项目标题
 }
 
 # For better nginx deployment
