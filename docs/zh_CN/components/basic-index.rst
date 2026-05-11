@@ -24,7 +24,6 @@
 - :doc:`Lierda LTE-EC71X OpenCPU 低功耗模式使用说明_Rev1.0`
 - :doc:`version-management`
 - :doc:`rtos`
-- :doc:`dev-guide`
 - :doc:`memory-and-psram`
 - :doc:`flash-partition`
 - :doc:`boot-process`

@@ -6,7 +6,7 @@ Components
 This section provides software architecture description, application development examples, business logic implementation, and related software function introductions.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    basic-index
