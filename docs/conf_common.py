@@ -157,13 +157,13 @@ def _load_model_switcher_config():
             {
                 "name": "CAT1.bis_OpenCPU",
                 "label": "CAT1.bis_OpenCPU",
-                "url": "https://your-domain.com/ec71x",
+                "url": "https://opendocs.lierda.com/docs/EC71X_OpenSDK/zh_CN/index.html",
             },
             # Add other compiled document sites here. Use full URLs only.
             {
                  "name": "CAT1.bis_AT",
                  "label": "CAT1.bis_AT",
-                 "url": "https://your-domain.com/ec71x",
+                 "url": "https://opendocs.lierda.com/docs/EC71X_OpenSDK/zh_CN/index.html",
             },
         ],
     }
