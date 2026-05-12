@@ -152,7 +152,7 @@ def _load_model_switcher_config():
         # When true, switching models keeps the current language and page path.
         # Example: https://ec71x.example.com/zh_CN/about.html ->
         # https://ec716s.example.com/zh_CN/about.html
-        "preservePath": True,
+        "preservePath": False,
         "models": [
             {
                 "name": "CAT1.bis_OpenCPU",

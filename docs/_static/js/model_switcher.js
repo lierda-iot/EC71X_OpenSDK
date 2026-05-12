@@ -105,15 +105,20 @@
   }
 
   function getTargetUrl(model) {
-    var parts = getPathParts();
-    var language = getCurrentLanguage(parts);
-    var pagePath = getPathAfterLanguage(parts);
     var targetBase = resolveBaseUrl(model);
-    var targetPath = [language].concat(pagePath);
 
     if (!targetBase) {
       return "";
     }
+
+    if (!CONFIG.preservePath) {
+      return targetBase;
+    }
+
+    var parts = getPathParts();
+    var language = getCurrentLanguage(parts);
+    var pagePath = getPathAfterLanguage(parts);
+    var targetPath = [language].concat(pagePath);
 
     return joinUrl(targetBase, targetPath) + window.location.search + window.location.hash;
   }
